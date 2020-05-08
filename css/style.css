@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400|Quicksand&display=swap');
+
+body{
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	/*background-image: url("../images/webb.png");*/
+	background-color: #67727E;
+}
+
+div.fluid-container{
+	width: 100%;
+	padding: 50px 30px;
+	margin: 0 auto;
+}
+
+div h1{
+	color: white;
+	font-size: 80px;
+	width: 45%;
+	margin-left: 50px;
+	/*background-color: gold;*/
+}
+
+div.title{
+	margin: 20px 20px;
+}
+
+div.card{
+	background-color: white;
+	border-radius: 0px;
+	border-width: 0px;
+	margin: 20px 0px;
+	margin-left: 50px;
+	height: 40vh;
+	box-shadow: 0px 0px 20px rgba(73,81,89,1);
+	padding: 0px;
+}
+
+div.card-header{
+	background-color: #DDE5E7;
+	border-radius: 0px;
+	/*width: 30%;*/
+	/*height: 100%;*/
+	/*display: inline-block;*/
+}
+
+div.card-header > h2{
+	font-weight: bold;
+}
+
+div.card-body{
+	padding: 5% 10%;
+	/*width: 30%;*/
+	/*height: 100%;*/
+	/*display: inline-block;*/
+}
+div.skills > div.card-body li{
+	display: inline-block;
+	width: 40%;
+}
+
+li{
+	list-style: none;
+}
